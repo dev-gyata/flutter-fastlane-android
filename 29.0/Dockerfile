@@ -10,3 +10,5 @@ RUN apt update
 RUN apt install -y ruby ruby-dev rubygems
 # Install fastlane.
 RUN gem install fastlane -NV
+# Install bundler
+RUN gem install bundler
